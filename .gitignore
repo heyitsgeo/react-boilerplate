@@ -1,0 +1,11 @@
+# node_modules
+node_modules/
+
+# VS Code Configurations
+.vscode/
+
+# JetBrains Configurations
+.idea/
+
+# Unit Test Coverage Reports
+coverage/
