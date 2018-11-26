@@ -32,6 +32,20 @@ module.exports = {
                 exclude: /node_modules/
             },
             {
+                test: /\.(sc|sa)ss$/,
+                use: [
+                    {
+                        loader: "style-loader",
+                    },
+                    {
+                        loader: "css-loader"
+                    },
+                    {
+                        loader: "sass-loader"
+                    }
+                ]
+            },
+            {
                 test: /\.css$/,
                 use: [
                     {
